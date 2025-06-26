@@ -33,6 +33,10 @@ class BinaryTree{
         //Step 2 : Assign the value to the data field of new Node
         newNode->info = x;
 
+        //Step 3 : Make the left and right child of new Node point to NULL
+        newNode->leftchild = nullptr;
+        newNode->rightchild = nullptr;
+
         
     }
 
